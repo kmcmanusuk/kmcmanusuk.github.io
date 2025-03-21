@@ -1,1 +1,49 @@
+<html lang="en">
+<head>
+<title>Kevin McManus, Ph.D.</title>
+</head>
 
+ <style>
+  h1 {font-family: Arial, Helvetica, sans-serif;}
+  h2 {font-family: Arial;}
+  h3 {font-family: Arial;}
+  p {font-family: Arial;}
+  h4 {font-family: Arial;}
+  ul {font-family: Arial;}
+  
+  img {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+  }
+
+  hr.dashed {
+  border-top: 1px dashed;
+  }
+</style>
+ 
+<body>
+
+<header>
+  <h1>Kevin McManus, Ph.D.
+  <img src="McManus_Kevin.jpg"  width="175" height="175">
+  </h1>
+ <p>Associate Professor, <a href="https://aplng.la.psu.edu" target="_blank">Department of Applied Linguistics, Penn State University</a><br>
+    Director, <a href="https://language.la.psu.edu" target="_blank">Center for Language Acquisition</a><br>
+    Director, <a href="https://calper.la.psu.edu" target="_blank">Center for Advanced Language Proficiency, Education, and Research</a><br>
+  <br>
+  Associate Editor, <a href="https://www.cambridge.org/core/journals/studies-in-second-language-acquisition" target="_blank" rel="noreferrer noopener"> Studies in Second Language Acquisition</a><br>
+  <br>
+    Email: kmcmanus@psu.edu<br>
+  <br>
+  <a href="McManusCV.pdf" target="_blank">Download CV</a>
+   </p>
+  <hr class="dashed" width="75%" size="1" align="center">
+</header>
+ 
+  <p> Content for the replication workshop</i>.</p>
+ 
+    
+  <h3>Publications</h3>
+  <h4><b>Forthcoming and preprints</b></h4>
+  <ul>
