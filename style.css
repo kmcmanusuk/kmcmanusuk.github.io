@@ -1,0 +1,67 @@
+/* Shared styles for kmcmanusuk.github.io
+   Edit this one file to change the look of every page. */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.5;
+  max-width: 760px;      /* keeps lines a comfortable length instead of full-width */
+  margin: 0 auto;
+  padding: 24px 20px 64px;
+}
+
+h1 { font-family: Arial, Helvetica, sans-serif; }
+h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
+p, ul, li { font-family: Arial, Helvetica, sans-serif; }
+
+a { color: #14507a; }
+a:hover { color: #0f3b5a; }
+
+/* Headshot: the dotted border is kept from the original design */
+img.headshot {
+  float: right;
+  border: 1px dotted black;
+  margin: 0 0 15px 20px;
+}
+
+/* Name as a link back to Home on inner pages */
+h1 a.name-link { color: inherit; text-decoration: none; }
+h1 a.name-link:hover { text-decoration: underline; }
+
+/* The menu (left-aligned by default; centered on the Home page only) */
+nav.site-nav {
+  margin: 16px 0 4px;
+}
+nav.site-nav a {
+  display: inline-block;
+  margin: 0 18px 6px 0;
+  padding: 2px 0;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+nav.site-nav a:hover {
+  text-decoration: underline;
+}
+nav.site-nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+/* Center the menu on the Home page only (its <body> has class="home") */
+body.home nav.site-nav {
+  text-align: center;
+}
+body.home nav.site-nav a {
+  margin: 0 9px 6px;   /* symmetric spacing so the centered row is even */
+}
+
+hr.dashed {
+  border: 0;
+  border-top: 1px dashed #000;
+  width: 75%;
+  margin: 18px auto;
+}
+
+/* Publications list spacing */
+ul.pubs { padding-left: 20px; }
+ul.pubs li { margin-bottom: 14px; }
